@@ -5,6 +5,7 @@
   "description": "Minecraft TypeScript Starter Project",
   "private": true,
   "devDependencies": {
+    
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
@@ -17,6 +18,7 @@
     "enablemcpreviewloopback": "CheckNetIsolation.exe LoopbackExempt -a -p=S-1-15-2-424268864-5579737-879501358-346833251-474568803-887069379-4040235476"
   },
   "dependencies": {
-    "@minecraft/server": "^1.1.0-beta.preview.1.19.50.22"
+    "@minecraft/server-ui": "^1.0.0-beta.11940b24",
+    "@minecraft/server": "1.0.0-beta.11940b24"
   }
 }

@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "My script behavior pack",
+    "name": "towrabbit typescript project",
     "description": "My behavior pack description",
-    "uuid": "14e467b4-e3aa-49d3-8352-f8439fd7b2ee",
+    "uuid": "ce2022d4-7de3-42ec-a1db-15145e1cf706",
     "version": [0, 0, 1],
     "min_engine_version": [1, 19, 40]
   },
@@ -12,7 +12,7 @@
       "description": "Script resources",
       "language": "javascript",
       "type": "script",
-      "uuid": "7c7e693f-99f4-41a9-95e0-1f57b37e1e12",
+      "uuid": "c7947493-d7f8-41ec-a088-2552f00c6469",
       "version": [0, 0, 1],
       "entry": "scripts/main.js"
     }
@@ -21,6 +21,10 @@
     {
       "module_name": "@minecraft/server",
       "version": "1.1.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.0.0-beta"
     }
   ]
 }
